@@ -36,7 +36,7 @@ function mostrarResultado(frecuenciaDias, fechaProximoCambio) {
     document.getElementById("frecuencia").innerHTML = `Frecuencia de cambio: ${frecuenciaDias} días`;
 
     // Formatear la fecha utilizando toLocaleDateString
-    document.getElementById("proximoCambio").innerHTML = `Próximo cambio de pezoneras: ${fechaProximoCambio.toLocaleDateString("es-ES")}`;
+    document.getElementById("proximoCambio").innerHTML = `Próximo cambio de pezoneras: <br /> ${fechaProximoCambio.toLocaleDateString("es-ES")}`;
 }
 
 document.getElementById("calculoForm").addEventListener('submit', function(event) {
