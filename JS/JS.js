@@ -33,10 +33,10 @@ function calcularFrecuenciaCambio(cantidadVacas, cantidadOrdeños, cantidadEquip
 }
 
 function mostrarResultado(frecuenciaDias, fechaProximoCambio) {
-    document.getElementById("frecuencia").innerHTML = `Frecuencia de cambio: ${frecuenciaDias} días`;
+    document.getElementById("frecuencia").innerHTML = `Frecuencia de cambio:<br/> ${frecuenciaDias} días`;
 
     // Formatear la fecha utilizando toLocaleDateString
-    document.getElementById("proximoCambio").innerHTML = `Próximo cambio de pezoneras: <br /> ${fechaProximoCambio.toLocaleDateString("es-ES")}`;
+    document.getElementById("proximoCambio").innerHTML = `Próximo cambio de pezoneras: <br/> ${fechaProximoCambio.toLocaleDateString("es-ES")}`;
 }
 
 document.getElementById("calculoForm").addEventListener('submit', function(event) {
