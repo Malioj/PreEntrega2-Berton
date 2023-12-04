@@ -1,14 +1,13 @@
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #22387e !important;
-}
-.card {
+  }
+  
+  .card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -16,16 +15,18 @@ body {
     max-width: 300px;
     margin: auto;
     text-align: center;
-}
-.card h2,
-.card label,
-.card input {
+  }
+  
+  .card h2,
+  .card label,
+  .card input {
     display: block;
     margin-bottom: 10px;
-    text-align: center; /* Añadido para centrar el texto */
+    text-align: center;
     width: 100%;
-}
-.card button {
+  }
+  
+  .card button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -33,7 +34,14 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
-}
-.card button:hover {
+  }
+  
+  .card button:hover {
     background-color: #0056b3;
-}
+  }
+  
+  /* Clase para ocultar elementos */
+  .hidden {
+    display: none;
+  }
+  
