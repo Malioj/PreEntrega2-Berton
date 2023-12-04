@@ -1,86 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/estilo.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- DIV CALCULADORA -->
     <div class="container-fluid calculadorad">
-      <div class="row">
-        <div class="col-xxl-6">
-          <form class="card" id="calculoForm">
-            <h2 class="pb-2">Calculá tu próximo cámbio de pezoneras</h2>
-            <label for="cantidadVacas" class="pt-2">Vacas en ordeño</label>
-            <input
-              type="number"
-              id="cantidadVacas"
-              name="cantidadVacas"
-              required
-            /><br />
+        <div class="row">
+            <div class="col-xxl-6">
+                <form class="card" id="calculoForm">
+                    <h2 class="pb-2">Calculá tu próximo cámbio de pezoneras</h2>
+                    <label for="cantidadVacas" class="pt-2">Vacas en ordeño</label>
+                    <input type="number" id="cantidadVacas" name="cantidadVacas" required /><br />
 
-            <label for="cantidadOrdeños">Ordeños por día</label>
-            <input
-              type="number"
-              id="cantidadOrdeños"
-              name="cantidadOrdeños"
-              required
-            /><br />
+                    <label for="cantidadOrdeños">Ordeños por día</label>
+                    <input type="number" id="cantidadOrdeños" name="cantidadOrdeños" required /><br />
 
-            <label for="cantidadEquipos">Número de bajadas</label>
-            <input
-              type="number"
-              id="cantidadEquipos"
-              name="cantidadEquipos"
-              required
-            /><br />
+                    <label for="cantidadEquipos">Número de bajadas</label>
+                    <input type="number" id="cantidadEquipos" name="cantidadEquipos" required /><br />
 
-            <label for="fechaCambio">Fecha de último cambio</label>
-            <input
-              type="date"
-              id="fechaCambio"
-              name="fechaCambio"
-              required
-            /><br />
+                    <label for="fechaCambio">Fecha de último cambio</label>
+                    <input type="date" id="fechaCambio" name="fechaCambio" required /><br />
 
-            <button type="submit">Calcular Frecuencia</button>
-          </form>
+                    <button type="submit">Calcular Frecuencia</button>
+                </form>
+            </div>
+
+            <div class="col-xxl-3">
+                <div id="frecuencia"
+                    class="container-fluid text-white text-center fs-2 pt-2 p-2"></div>
+            </div>
+
+            <div class="col-xxl-3">
+                <div id="proximoCambio"
+                    class="container-fluid text-white text-center fs-2 p-2"></div>
+                <button id="mostrarTablaBtn" class="hidden">Mostrar Próximos Cambios Ascendente</button>
+                <div id="resultados"></div>
+            </div>
         </div>
-
-        <div class="col-xxl-3">
-          <div
-            id="frecuencia"
-            class="container-fluid text-white text-center fs-2 pt-2 p-2"
-          ></div>
-        </div>
-
-        <div class="col-xxl-3">
-          <div
-            id="proximoCambio"
-            class="container-fluid text-white text-center fs-2 p-2"
-          ></div>
-          <button id="mostrarTablaBtn" class="hidden">Mostrar Próximos Cambios Ascendente</button>
-          <div id="resultados"></div>
-        </div>
-      </div>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="JS/JS.js"></script>
-  </body>
+</body>
+
 </html>
+
+
 
 
 

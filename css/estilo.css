@@ -1,47 +1,47 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #22387e !important;
-  }
-  
-  .card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .card h2,
-  .card label,
-  .card input {
-    display: block;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .card button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  .card button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Clase para ocultar elementos */
-  .hidden {
-    display: none;
-  }
-  
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #22387e !important;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.card h2,
+.card label,
+.card input {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+/* Clase para ocultar elementos */
+.hidden {
+  display: none;
+}
+
